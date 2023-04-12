@@ -1,5 +1,5 @@
 # Klipperscreen_blurry_theme
-A nice theme for Klipperscreen
+A nice blurry theme for Klipperscreen
 
 
 ![home](https://user-images.githubusercontent.com/111509593/231403757-6e60c527-3d6d-4bae-aef3-74c20aa00ec6.png)
