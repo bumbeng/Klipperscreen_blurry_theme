@@ -1,0 +1,273 @@
+/* vzbot-theme theme created by Marco Formenton 2022 */
+
+* {
+    color: #e2e2e2;
+}
+
+window {
+    background-color: #121212;
+    background-image: url("./styles/blurry/background.svg");
+    background-size: cover;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+button:active {
+    background-color: rgba(2, 27, 56, 0.575);
+}
+
+.button_active {
+    background-color: rgba(2, 27, 56, 0.575);
+    border-color: #490696;
+    border: 0;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+button.color1 {
+    background-color: rgba(2, 27, 56, 0.726);
+    border-color: #cb4b16;
+    border-radius: 1em;
+    box-shadow: 0px 0px 42px -11px rgba(0,0,0,0.75);
+}
+
+button.color2 {
+    background-color: rgba(2, 27, 56, 0.726);
+    border-color: #d33682;
+    border-radius: 1em;
+    box-shadow: 0px 0px 42px -11px rgba(0,0,0,0.75);
+}
+
+button.color3 {
+    background-color: rgba(2, 27, 56, 0.726);
+    border-color: #2aa198;
+    border-radius: 1em;
+    box-shadow: 0px 0px 42px -11px rgba(0,0,0,0.75);
+}
+
+button.color4 {
+    background-color: rgba(2, 27, 56, 0.726);
+    border-color: #859900;
+    border-radius: 1em;
+    box-shadow: 0px 0px 42px -11px rgba(0,0,0,0.75);
+}
+
+button.color1:active, button.color2:active, button.color3:active, button.color4:active, button.update:active, button.invalid:active, .dialog button:active {
+    border-style: none;
+    margin-top: .5em;
+}
+
+button.active {
+    background-color: rgba(233, 0, 97, 0.5);
+}
+
+button.update {
+    background-color: rgba(2, 27, 56, 0.726);
+    border: 0;
+    border-bottom: 0.3em solid;
+    border-bottom-color: #849900;
+    border-radius: .75em;
+}
+
+button.invalid {
+    background-color: rgba(2, 27, 56, 0.726);
+    border: 0;
+    border-bottom: .3em solid;
+    border-bottom-color: #dc322f;
+    border-radius: .75em;
+}
+
+combobox box button {
+    background-color: rgba(2, 27, 56, 0.726);
+    border-color: rgba(0,0,0,0);
+    border: 0;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+switch {
+    background-color: rgba(2, 27, 56, 0.726);
+    border-color: rgba(0,0,0,0);
+}
+
+switch:checked {
+    background-color: rgba(233, 0, 97, 0.5);
+}
+
+switch slider {
+    border: 0;
+}
+
+entry {
+    background-color: rgba(2, 27, 56, 0.726);
+    border-color: rgba(0,0,0,0);
+    border: 0;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+frame {
+    color: #fdf6e3;
+    border-bottom-color: rgba(2, 27, 56, 0.726);
+}
+
+label {
+    color: #fdf6e3;
+}
+
+menu {
+    background-color: rgb(2, 27, 56);
+    border: 0;  
+}
+
+menuitem {
+    background-color: rgb(2, 27, 56);
+    border: 0;
+}
+
+trough {
+    background-color: #073642;
+    color: #fdf6e3;
+    border: 0;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+trough highlight, trough progress {
+    background-color: rgba(233, 0, 97, 0.5);
+    color: #fdf6e3;
+    border: 0;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+scale-mark {
+    color: #fdf6e3;
+}
+
+scrollbar, scrollbar button, scrollbar trough {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+scrollbar slider {
+    background-color: rgba(219, 219, 219, 0.712);
+}
+
+textview .time {
+    color: rgba(15, 44, 68, 0.726);
+    border: 0;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.popup {
+    background-color: #268bd2;
+}
+
+.dialog {
+    border: 0;
+    background-color: #002b36;
+    border-top-left-radius: .75em;
+    border-bottom-left-radius: .75em;
+    border-top-right-radius: .75em;
+    border-bottom-right-radius: .75em;
+}
+
+.dialog button {
+    background-color: rgba(2, 27, 56, 0.726);
+    border-bottom-color: #268bd2;
+    border-radius: .75em;
+}
+
+.dialog button:nth-child(1) {
+    border-bottom-color: #849900;
+}
+
+.dialog button:nth-child(2) {
+    border-bottom-color: #B71C1C;
+}
+
+.tempbutton_top, .tempbutton, .tempbutton_bottom, .distbutton_top, .distbutton, .distbutton_bottom  {
+    background-color: rgba(2, 27, 56, 0.726);
+    border: 0;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    box-shadow: 0px 0px 42px -11px rgba(0,0,0,0.75);
+    margin-right: 5px;
+}
+
+.distbutton_active {
+    background-color: rgba(212, 120, 0, 0.699);
+}
+
+.fan_slider {
+    color: #e2e2e2;
+}
+
+.message_popup {
+    border-bottom-color: #e2e2e2;
+}
+
+.message_popup_echo, .message_popup_echo button {
+    background-color: rgba(212, 120, 0, 0.699);
+}
+
+.message_popup_error, .message_popup_error button {
+    background-color: #B71C1C;
+}
+
+.numpad_tleft, .numpad_top, .numpad_tright, .numpad_left, .numpad_button, .numpad_right, .numpad_bleft, .numpad_bottom, .numpad_bright {
+    border-color: rgba(0,0,0,0);
+    background-color: rgba(2, 27, 56, 0.726);
+}
+
+.printing-status {
+    color: #e2e2e2;
+}
+
+.printing-progress-bar {
+    color: #006064;
+}
+
+.printing-progress-text {
+    color: #e2e2e2;
+}
+
+.printing-status-label {
+    color: #9E9E9E;
+}
+
+.message {
+    border-color: #B71C1C;
+    color: #e2e2e2;
+    background-color: #B71C1C;
+}
+
+.message button {
+    background-color: #e2e2e2;
+    color: #121212;
+}
+
+.warning {
+    background-color: #EF6C00;
+}
+
+.error {
+    background-color: #B71C1C;
+}
