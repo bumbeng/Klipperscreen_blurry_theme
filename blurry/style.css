@@ -6,12 +6,12 @@
 
 window {
     background-color: #121212;
-    background-image: url("./styles/blurry/background.svg");
+    background-image: url("./styles/new/background.svg");
     background-size: cover;
 }
 
 button {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: transparent;
 }
 
 button:active {
@@ -32,28 +32,28 @@ button.color1 {
     background-color: rgba(2, 27, 56, 0.726);
     border-color: #cb4b16;
     border-radius: 1em;
-    box-shadow: 0px 0px 42px -11px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 32px -22px rgba(0,0,0,0.75);
 }
 
 button.color2 {
     background-color: rgba(2, 27, 56, 0.726);
     border-color: #d33682;
     border-radius: 1em;
-    box-shadow: 0px 0px 42px -11px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 32px -22px rgba(0,0,0,0.75);
 }
 
 button.color3 {
     background-color: rgba(2, 27, 56, 0.726);
     border-color: #2aa198;
     border-radius: 1em;
-    box-shadow: 0px 0px 42px -11px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 32px -22px rgba(0,0,0,0.75);
 }
 
 button.color4 {
     background-color: rgba(2, 27, 56, 0.726);
     border-color: #859900;
     border-radius: 1em;
-    box-shadow: 0px 0px 42px -11px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 32px -22px rgba(0,0,0,0.75);
 }
 
 button.color1:active, button.color2:active, button.color3:active, button.color4:active, button.update:active, button.invalid:active, .dialog button:active {
@@ -82,7 +82,7 @@ button.invalid {
 }
 
 combobox box button {
-    background-color: rgba(2, 27, 56, 0.726);
+    background-color: rgba(2, 27, 56, 0.7);
     border-color: rgba(0,0,0,0);
     border: 0;
     border-top-left-radius: 1em;
@@ -97,7 +97,7 @@ switch {
 }
 
 switch:checked {
-    background-color: rgba(233, 0, 97, 0.5);
+    background-color: rgba(212, 120, 0, 0.699);
 }
 
 switch slider {
@@ -124,33 +124,35 @@ label {
 }
 
 menu {
-    background-color: rgb(2, 27, 56);
+    background-color: transparent;
     border: 0;  
 }
 
 menuitem {
     background-color: rgb(2, 27, 56);
-    border: 0;
+    border-color: rgb(2, 27, 56); /*base03*/
 }
 
 trough {
-    background-color: #073642;
+    background-color: rgba(2, 27, 56, 0.726);
     color: #fdf6e3;
     border: 0;
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
+    box-shadow: 0px 0px 42px -11px rgba(0,0,0,0.75);
 }
 
 trough highlight, trough progress {
-    background-color: rgba(233, 0, 97, 0.5);
+    background-color: rgba(212, 120, 0, 0.699);
     color: #fdf6e3;
     border: 0;
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
+    box-shadow: inset 0px 0px 32px -22px rgba(0,0,0,0.75);
 }
 
 scale-mark {
@@ -208,7 +210,7 @@ textview .time {
     border-bottom-left-radius: 1em;
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
-    box-shadow: 0px 0px 42px -11px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 32px -22px rgba(0,0,0,0.75);
     margin-right: 5px;
 }
 
