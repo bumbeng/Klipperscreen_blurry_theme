@@ -2,10 +2,12 @@
 A nice blurry theme for Klipperscreen
 
 
-![home](https://user-images.githubusercontent.com/111509593/231403757-6e60c527-3d6d-4bae-aef3-74c20aa00ec6.png)
-![AXES_move](https://user-images.githubusercontent.com/111509593/231403600-728da878-47b1-43db-9683-a41e63f11cfd.png)
-![File_browser](https://user-images.githubusercontent.com/111509593/231403610-e4c202d3-bc57-4447-bcbd-88406d78a0f2.png)
-![Print_screen](https://user-images.githubusercontent.com/111509593/231403612-2d6addaa-f84c-46b0-b0e6-a8fbdbc8407a.png)
+![AXES_move](https://user-images.githubusercontent.com/111509593/231819493-aadc9808-b94f-4984-aed5-f4a70b33175d.png)
+![File_browser](https://user-images.githubusercontent.com/111509593/231819590-8d7c745e-3dad-46f5-8183-8844c70862d4.png)
+![home](https://user-images.githubusercontent.com/111509593/231819592-7ea425a4-bdca-4ab9-ab4f-a1366c923ad9.png)
+![limits](https://user-images.githubusercontent.com/111509593/231819594-a1200c86-4e0b-4327-a53e-b3df385dffdb.png)
+![Print_screen](https://user-images.githubusercontent.com/111509593/231819600-5b1872aa-bcd9-4d88-8733-aed120cf6de6.png)
+
 
 put the folder /blurry via SSH to /home/pi/KlipperScreen/styles/
 !!do not rename!!
