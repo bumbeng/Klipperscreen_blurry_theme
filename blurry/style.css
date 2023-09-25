@@ -10,6 +10,22 @@ window {
     background-size: cover;
 }
 
+list row {
+    background-color: rgba(2, 27, 56, 0.926);
+    -gtk-icon-shadow: none;
+    box-shadow: inset 0px 0px 32px -22px rgba(0,0,0,0.75);
+
+}
+treeview.view {
+    background-color: transparent;
+}
+
+list row {
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
 button {
     background-color: transparent;
 }
