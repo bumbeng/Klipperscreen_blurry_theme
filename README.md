@@ -16,5 +16,5 @@
 
 
 
-put the folder /blurry via SSH to /home/pi/KlipperScreen/styles/  
+put the folder /blurry or /blurry2 via SSH to /home/pi/KlipperScreen/styles/  
 !!do not rename!!
