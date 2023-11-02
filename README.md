@@ -1,6 +1,6 @@
 # Klipperscreen_blurry_theme
 
-| ## Version 1.0                                                                                                           | ## Version 2.0                                                                                                    |
+| Version 1.0                                                                                                              | Version 2.0                                                                                                       |
 | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
 | ![AXES_move](https://user-images.githubusercontent.com/111509593/231819493-aadc9808-b94f-4984-aed5-f4a70b33175d.png)     | ![1](https://github.com/bumbeng/Klipperscreen_blurry_theme/assets/111509593/d635230e-6f08-4bbf-8366-26be8a0cc99e) |
 | ![File_browser](https://user-images.githubusercontent.com/111509593/231819590-8d7c745e-3dad-46f5-8183-8844c70862d4.png)  | ![2](https://github.com/bumbeng/Klipperscreen_blurry_theme/assets/111509593/3858b4c2-0c27-4303-b07f-a686f181884d) |
