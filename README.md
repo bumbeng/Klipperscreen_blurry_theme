@@ -8,6 +8,6 @@
 | ![Print_screen](https://user-images.githubusercontent.com/111509593/231819600-5b1872aa-bcd9-4d88-8733-aed120cf6de6.png)  | ![6](https://github.com/bumbeng/Klipperscreen_blurry_theme/assets/111509593/d21d4ff0-6985-4826-a491-6009456e737f) |
 |                                                                                                                          | ![3](https://github.com/bumbeng/Klipperscreen_blurry_theme/assets/111509593/d9fa480f-f19f-4a5b-83fc-d962772eb376) |
 |                                                                                                                          | ![4](https://github.com/bumbeng/Klipperscreen_blurry_theme/assets/111509593/2433d9c4-b9ba-4b04-b20c-652a44999758) |
-![5](https://github.com/bumbeng/Klipperscreen_blurry_theme/assets/111509593/3db37bcb-1729-46ea-8dbb-4d6069572489)
+
 put the folder /blurry or /blurry2 via SSH to /home/pi/KlipperScreen/styles/  
 !!do not rename!!
