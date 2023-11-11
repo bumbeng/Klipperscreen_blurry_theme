@@ -138,18 +138,14 @@ label {
 }
 
 menu {
-    background-color: rgba(2, 27, 56, 0.326); /*base03*/
-    border: none;
-    box-shadow: inset 0px 0px 15px -4px rgba(0,0,0,0.24);
-    
-    
+    background-color: transparent; /*base03*/
+    border: 0.2em solid;
+    border-color: rgba(2, 27, 56, 0.5);     
 }
 
 menuitem {
     background-color: transparent; /*base03*/
-    border: none;
-    border-color: #93a1a1;  /*base1*/
-    
+    border: none;  
 }
 
 trough {
