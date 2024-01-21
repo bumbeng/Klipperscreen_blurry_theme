@@ -7,95 +7,48 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="64"
-   height="64"
-   viewBox="0 0 64 64"
    version="1.1"
-   id="svg10"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   id="svg957"
    sodipodi:docname="emergency.svg"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)">
-  <circle
-     style="opacity:0.995;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
-     id="path1639"
-     cx="32"
-     cy="32"
-     r="20" />
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
   <metadata
-     id="metadata16">
+     id="metadata6">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>folder</dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs14" />
+     id="defs961" />
   <sodipodi:namedview
-     pagecolor="#bfbfbf"
-     bordercolor="#666666"
+     id="namedview959"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
      borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
+     inkscape:pageshadow="0"
      inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1600"
-     inkscape:window-height="837"
-     id="namedview12"
+     inkscape:pagecheckerboard="1"
      showgrid="false"
-     inkscape:pagecheckerboard="false"
-     inkscape:zoom="4.7265625"
-     inkscape:cx="31.537261"
-     inkscape:cy="17.681326"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:zoom="26"
+     inkscape:cx="9"
+     inkscape:cy="12.442308"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg10"
-     inkscape:snap-bbox="true"
-     inkscape:snap-bbox-edge-midpoints="false"
-     inkscape:document-rotation="0"
-     inkscape:snap-bbox-midpoints="true" />
-  <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+     inkscape:current-layer="svg957"
+     inkscape:document-rotation="0" />
   <path
-     style="opacity:0.995;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
-     id="ellipse1641"
-     sodipodi:type="arc"
-     sodipodi:cx="32"
-     sodipodi:cy="32"
-     sodipodi:rx="28.499996"
-     sodipodi:ry="28.499998"
-     sodipodi:start="2.3561945"
-     sodipodi:end="3.9269908"
-     sodipodi:arc-type="arc"
-     d="m 11.847459,52.152542 a 28.499996,28.499998 0 0 1 0,-40.305084"
-     sodipodi:open="true" />
-  <title
-     id="title2">folder</title>
-  <path
-     style="opacity:0.995;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
-     id="path1643"
-     sodipodi:type="arc"
-     sodipodi:cx="32"
-     sodipodi:cy="32"
-     sodipodi:rx="28.499996"
-     sodipodi:ry="28.499998"
-     sodipodi:start="5.4977871"
-     sodipodi:end="0.78539816"
-     sodipodi:arc-type="arc"
-     d="M 52.15254,11.847457 A 28.499996,28.499998 0 0 1 60.499996,32 28.499996,28.499998 0 0 1 52.152541,52.152542"
-     sodipodi:open="true" />
-  <desc
-     id="desc4">Created with Sketch.</desc>
-  <path
-     style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 32.000001,19.000001 v 16"
-     id="path1645" />
-  <path
-     style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 32,39 v 6"
-     id="path1651" />
+     d="m 11,15 h 2 v 2 h -2 v -2 m 0,-8 h 2 v 6 H 11 V 7 m 1,-4 c -4.9705627,0 -9,4.0294373 -9,9 0,4.970563 4.0294373,9 9,9 4.970563,0 9,-4.029437 9,-9 0,-4.9705627 -4.029437,-9 -9,-9 m 0,16 C 8.14,19 5,15.86 5,12 5,8.14 8.14,5 12,5 c 3.86,0 7,3.14 7,7 0,3.86 -3.14,7 -7,7"
+     id="path955"
+     style="fill:#f44336;fill-opacity:1;font-variation-settings:normal;opacity:1;vector-effect:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+     sodipodi:nodetypes="cccccccccccsssccsssc" />
 </svg>
