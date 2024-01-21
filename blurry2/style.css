@@ -203,7 +203,7 @@ textview .time {
 .dialog button:nth-child(2) {
     border-bottom-color: #dc322f; /*solarazed-red*/
 }
-.tempbutton_top, .tempbutton, .tempbutton_bottom, .distbutton_top, .distbutton, .distbutton_bottom  {
+.horizontal_togglebuttons  {
     border: none; /*base03*/
     background-color: rgba(2, 27, 56, 0.326); /*base02*/
     border-radius: 0.75em;
@@ -211,7 +211,7 @@ textview .time {
     margin-right: 5px;
 }
 
-.distbutton_active {
+.horizontal_togglebuttons_active {
     background-color: rgba(227, 115, 2, 0.65); /*solarized-orange*/
     box-shadow: inset 0px 0px 22px 5px rgba(0,0,0,0.32);
 }
