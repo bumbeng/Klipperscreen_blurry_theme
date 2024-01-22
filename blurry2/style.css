@@ -20,7 +20,7 @@ treeview.view {
 
 window {
     background-color: transparent;
-    background-image: url("./styles/blurry2/background.svg");
+    background-image: url("./styles/blurry2/background.png");
     background-size: cover;
 
 }
