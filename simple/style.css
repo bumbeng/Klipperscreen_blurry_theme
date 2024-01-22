@@ -1,0 +1,279 @@
+/* blurry-theme created by Sascha Buerger 2023 */
+
+
+* {
+    color: #fdf6e3; /*base3*/
+    background-color: transparent;
+}
+
+list row {
+    background-color: rgba(23, 23, 23, 0.4); /*base03*/
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    
+}
+
+treeview.view {
+    background-color: transparent;
+
+}
+
+window {
+    background-color: transparent;
+    background-image: url("./styles/new/background.png");
+    background-size: cover;
+
+}
+.frame-item {
+    border-bottom-color: rgba(230, 230, 230, 0.2);
+
+}
+
+button {
+    background-color: transparent; /*base03*/
+}
+
+button:active {
+    background-color: rgba(23, 23, 23, 0.3); /*transparent-purple*/
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.button_active {
+    border-color: rgba(23, 23, 23, 0.1); /*base02*/
+    border-style: solid;
+    border-radius: 1em;
+    background-color: rgba(23, 23, 23, 0.2); /*base02*/  
+}
+
+button.color1 {
+    background-color: rgba(23, 23, 23, 0.2); /*base02*/
+    border-bottom-color: rgba(227, 115, 2, 0.65); /*solarized-orange*/
+    border-radius: 1em;
+}
+
+button.color2 {
+    background-color: rgba(23, 23, 23, 0.2); /*base02*/
+    border-bottom-color: #d33682; /*solarized-magenta*/
+    border-radius: 1em;
+}
+
+button.color3 {
+    background-color: rgba(23, 23, 23, 0.2); /*base02*/
+    border-bottom-color: #2aa198; /*solarized-cyan*/
+    border-radius: 1em;
+}
+
+button.color4 {
+    background-color: rgba(23, 23, 23, 0.2); /*base02*/
+    border-bottom-color: #859900; /*solarized-green*/
+    border-radius: 1em;
+}
+
+button.color1:active, button.color2:active, button.color3:active, button.color4:active, button.update:active, button.invalid:active, .dialog button:active {
+    border-style: none;
+    margin-top: .5em;
+}
+
+button.active {
+    background-color: rgba(23, 23, 23, 0.3); /*solarized-orange*/
+}
+
+button.update {
+    background-color: rgba(23, 23, 23, 0.2); /*base02*/
+    border: 0;
+    border-bottom: .3em solid;
+    border-bottom-color: #859900; /*solarized-green*/
+    border-radius: .75em;
+}
+
+button.invalid {
+    background-color: rgba(23, 23, 23, 0.2); /*base02*/
+    border: 0;
+    border-bottom: .3em solid;
+    border-bottom-color: #dc322f; /*solarized-red*/
+    border-radius: .75em;
+}
+
+combobox box button {
+    background-color: rgba(23, 23, 23, 0.2); /*base02*/
+    border-color: transparent; /*base03*/
+    border-radius: .75em;
+    
+}
+
+combobox window.popup {
+    background-color: transparent;
+    border-color: transparent; /*base03*/
+    
+    
+}
+
+treeview.view check,
+switch {
+    background-color: rgba(23, 23, 23, 0.2); /* base02 */
+}
+
+treeview.view check:checked,
+switch:checked {
+    background-color: #859900; /*solarized-green*/
+}
+
+entry {
+    background-color: rgba(23, 23, 23, 0.3); /*base02*/
+    border: none; /*base03*/
+}
+
+label {
+    color: #fdf6e3; /*base3*/
+}
+
+menu {
+    background-color: transparent; /*base03*/
+    border: 0.2em solid;
+    border-color: rgba(23, 23, 23, 0.5);
+}
+
+menuitem {
+    background-color: transparent; /*base03*/
+    border: none;
+    
+}
+
+trough {
+    background-color: rgba(23, 23, 23, 0.2); /*base02*/
+    color: #fdf6e3; /*base3*/
+    border: none; /*base03*/
+    border-radius: 1em;
+}
+
+trough highlight, trough progress {
+    background-color: rgba(227, 115, 2, 0.65); /*solarized-orange*/
+    color: #fdf6e3; /*base3*/
+    border: none; /*base03*/
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+scale-mark {
+    color: #fdf6e3; /*base3*/
+}
+
+scrollbar, scrollbar button, scrollbar trough {
+    background-color: transparent; /*base03*/
+}
+
+scrollbar slider {
+    background-color: rgba(217, 217, 217, 0.526); /*base02*/
+}
+
+textview .time {
+    color: #93a1a1; /*base1*/
+}
+
+.popup {
+    background-color: #268bd2; /*solarized-cyan*/
+}
+
+.dialog {
+    border: #002b36; /*base03*/
+    background-color: transparent; /*base03*/
+}
+
+.dialog button {
+    background-color: rgba(23, 23, 23, 0.2); /*base02*/
+    border-bottom-color: #268bd2; /*solarized-cyan*/
+    border-radius: .75em;
+}
+
+.dialog button:nth-child(1) {
+    border-bottom-color: #859900; /*solarized-green*/
+}
+
+.dialog button:nth-child(2) {
+    border-bottom-color: #dc322f; /*solarazed-red*/
+}
+/*.tempbutton_top, .tempbutton, .tempbutton_bottom, .distbutton_top, .distbutton, .distbutton_bottom  {*/
+.horizontal_togglebuttons {
+    border: none; /*base03*/
+    background-color: rgba(23, 23, 23, 0.2); /*base02*/
+    border-radius: 0.75em;
+    margin-right: 5px;
+}
+
+.horizontal_togglebuttons_active {
+    background-color: rgba(227, 115, 2, 0.65); /*solarized-orange*/
+}
+
+.fan_slider {
+    color: #fdf6e3; /*base3*/
+}
+
+.message_popup {
+    border-bottom-color: #fdf6e3; /*base3*/
+}
+
+.message_popup button {
+    background-color: #dc322f; /*solarazed-red*/
+}
+
+.message_popup_echo, .message_popup_echo button {
+    background-color: #859900; /*solarized-green*/
+}
+
+.message_popup_warning, .message_popup_warning button {
+    background-color: #cb4b16; /*solarazed-orange*/
+}
+
+.message_popup_error, .message_popup_error button {
+    background-color: #dc322f; /*solarazed-red*/
+}
+
+.numpad_tleft, .numpad_top, .numpad_tright, .numpad_left, .numpad_button, .numpad_right, .numpad_bleft, .numpad_bottom, .numpad_bright {
+    border-color: transparent; /*base03*/
+    background-color: rgba(23, 23, 23, 0.2); /*base02*/
+}
+
+.printing-status {
+    color: #fdf6e3; /*base3*/
+}
+
+.printing-progress-text {
+    color: #fdf6e3; /*base3*/
+}
+
+.printing-status-label {
+    color: #93a1a1; /*base1*/
+}
+
+.message {
+    border-color: #dc322f; /*solarized-red*/
+    color: #fdf6e3; /*base3*/
+    background-color: #dc322f; /*solarized-red*/
+}
+
+.message button {
+    background-color: #fdf6e3; /*base3*/
+    color: #002b36; /*base03*/
+}
+
+.warning {
+    background-color: #b58900; /*solarazed-yellow*/
+}
+
+.error {
+    background-color: #dc322f; /*solarized-red*/
+
+}
+.keyboard_pad {
+    background-color: rgba(23, 23, 23, 0.2); /*base02*/
+
+}
+.graph_label {
+    background-color: rgba(23, 23, 23, 0.2);
+    border-left-width: 4px; 
+    border-left-style: solid;
+    border-radius: 6px;
+}
