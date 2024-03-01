@@ -103,10 +103,22 @@ button.invalid {
     border-radius: .75em;
 }
 
+combobox button,
 combobox box button {
-    background-color: rgba(2, 27, 56, 0.326); /*base02*/
+    background-color: rgba(23, 23, 23, 0.2); /*base02*/
     border-color: transparent; /*base03*/
-    border-radius: .75em;
+    border: 0;
+    border-radius: 0.75em;
+    
+
+}
+menu,
+popover,
+popover button,
+combobox arrow,
+menuitem,
+combobox menuitem {
+    background-color: transparent;
     
 }
 
