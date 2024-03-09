@@ -1,16 +1,22 @@
 /* blurry-theme created by Sascha Buerger 2023 */
-
+@define-color color1 #f9a825;
+@define-color color2 #d33682;
+@define-color color3 #2aa198;
+@define-color color4 #859900;
+@define-color bg #002b36;
+@define-color warning #f9a825;
+@define-color error #981E1F;
+@define-color text white;
 
 * {
-    color: #fdf6e3; /*base3*/
     background-color: transparent;
+
 }
 
 list row {
-    background-color: rgba(2, 27, 56, 0.526); /*base03*/
+    background-color: rgba(2, 27, 56, 0.526);
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
-    
 }
 
 treeview.view {
@@ -19,99 +25,78 @@ treeview.view {
 }
 
 window {
-    background-color: transparent;
+    background-color: @bg;
     background-image: url("./styles/blurry2/background.png");
     background-size: cover;
 
 }
-.frame-item {
-    border-bottom-color: rgba(230, 230, 230, 0.326);
-
-}
 
 button {
-    background-color: transparent; /*base03*/
+    background-color: transparent;
+    border-radius: 0.5em;
 }
 
-button:active {
-    background-color: rgba(2, 27, 56, 0.726); /*transparent-purple*/
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
-}
-
-.button_active {
-    border-color: rgba(2, 27, 56, 0.326); /*base02*/
-    border-style: solid;
-    border-radius: 1em;
-    background-color: rgba(2, 27, 56, 0.326); /*base02*/
+button:active,
+.button_active,
+button.active {
+    background-color: rgba(2, 27, 56, 0.575);
+    border-radius: 0.5em;
+    border-style: none;
     box-shadow: inset 0px 0px 15px -4px rgba(0,0,0,0.24);
 }
 
 button.color1 {
-    background-color: rgba(2, 27, 56, 0.326); /*base02*/
-    border-bottom-color: rgba(227, 115, 2, 0.65); /*solarized-orange*/
+    background-color: rgba(2, 27, 56, 0.3);
+    border-bottom-color: @color1;
     border-radius: 1em;
     box-shadow: inset 0px 0px 15px -4px rgba(0,0,0,0.24);
 }
 
 button.color2 {
-    background-color: rgba(2, 27, 56, 0.326); /*base02*/
-    border-bottom-color: #d33682; /*solarized-magenta*/
+    background-color: rgba(2, 27, 56, 0.3);
+    border-bottom-color: @color2;
     border-radius: 1em;
     box-shadow: inset 0px 0px 15px -4px rgba(0,0,0,0.24);
 }
 
 button.color3 {
-    background-color: rgba(2, 27, 56, 0.326); /*base02*/
-    border-bottom-color: #2aa198; /*solarized-cyan*/
+    background-color: rgba(2, 27, 56, 0.3);
+    border-bottom-color: @color3;
     border-radius: 1em;
     box-shadow: inset 0px 0px 15px -4px rgba(0,0,0,0.24);
 }
 
 button.color4 {
-    background-color: rgba(2, 27, 56, 0.326); /*base02*/
-    border-bottom-color: #859900; /*solarized-green*/
+    background-color: rgba(2, 27, 56, 0.3);
+    border-bottom-color: @color4;
     border-radius: 1em;
     box-shadow: inset 0px 0px 15px -4px rgba(0,0,0,0.24);
 }
 
-button.color1:active, button.color2:active, button.color3:active, button.color4:active, button.update:active, button.invalid:active, .dialog button:active {
-    border-style: none;
-    margin-top: .5em;
-}
-
-button.active {
-    background-color: rgba(227, 115, 2, 0.65); /*solarized-orange*/
-    box-shadow: inset 0px 0px 22px 5px rgba(0,0,0,0.32);
-}
-
 button.update {
-    background-color: rgba(2, 27, 56, 0.326); /*base02*/
+    background-color: rgba(2, 27, 56, 0.3);
     border: 0;
     border-bottom: .3em solid;
-    border-bottom-color: #859900; /*solarized-green*/
+    border-bottom-color: @color4;
     border-radius: .75em;
 }
 
 button.invalid {
-    background-color: rgba(2, 27, 56, 0.326); /*base02*/
+    background-color: rgba(2, 27, 56, 0.3);
     border: 0;
     border-bottom: .3em solid;
-    border-bottom-color: #dc322f; /*solarized-red*/
+    border-bottom-color: @error;
     border-radius: .75em;
 }
 
 combobox button,
 combobox box button {
-    background-color: rgba(23, 23, 23, 0.2); /*base02*/
-    border-color: transparent; /*base03*/
+    background-color: rgba(23, 23, 23, 0.2);
+    border-color: transparent;
     border: 0;
     border-radius: 0.75em;
-    
-
 }
+
 menu,
 popover,
 popover button,
@@ -124,172 +109,136 @@ combobox menuitem {
 
 combobox window.popup {
     background-color: transparent;
-    border-color: transparent; /*base03*/
-    
-    
+    border-color: transparent;
 }
 
 treeview.view check,
 switch {
-    background-color: rgba(2, 27, 56, 0.326); /* base02 */
+    background-color: rgba(2, 27, 56, 0.3);
 }
 
 treeview.view check:checked,
 switch:checked {
-    background-color: #859900; /*solarized-green*/
+    background-color: @color4;
 }
 
 entry {
-    background-color: rgba(2, 27, 56, 0.426); /*base02*/
-    border: none; /*base03*/
+    background-color: rgba(2, 27, 56, 0.4);
+    border: none;
+    margin-bottom: 0.5em;
     box-shadow: inset 0px 0px 32px 18px rgba(0,0,0,0.32);
 }
 
-label {
-    color: #fdf6e3; /*base3*/
-}
-
 menu {
-    background-color: transparent; /*base03*/
+    background-color: transparent; 
     border: 0.2em solid;
-    border-color: rgba(2, 27, 56, 0.5);     
+    border-color: @bg;
+    border-radius: 0.5em;
 }
 
 menuitem {
-    background-color: transparent; /*base03*/
-    border: none;  
+    background-color: transparent;
+    border: none;
+    
 }
 
 trough {
-    background-color: rgba(2, 27, 56, 0.326); /*base02*/
-    color: #fdf6e3; /*base3*/
-    border: none; /*base03*/
+    background-color: rgba(2, 27, 56, 0.3);
+    color: @text;
+    border: none;
     border-radius: 1em;
     box-shadow: inset 0px 0px 15px -4px rgba(0,0,0,0.24);
 }
 
-trough highlight, trough progress {
-    background-color: rgba(227, 115, 2, 0.65); /*solarized-orange*/
-    color: #fdf6e3; /*base3*/
-    border: none; /*base03*/
+trough highlight,
+trough progress {
+    background-color: rgba(227, 115, 2, 0.65);
+    border: none;
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
     box-shadow: inset 0px 0px 22px 5px rgba(0,0,0,0.32);
 }
-
-scale-mark {
-    color: #fdf6e3; /*base3*/
+trough progress.left {
+    border: 2px;
 }
 
 scrollbar, scrollbar button, scrollbar trough {
-    background-color: transparent; /*base03*/
+    background-color: transparent;
 }
 
 scrollbar slider {
-    background-color: rgba(217, 217, 217, 0.526); /*base02*/
-}
-
-textview .time {
-    color: #93a1a1; /*base1*/
+    background-color: rgba(217, 217, 217, 0.526);
 }
 
 .popup {
-    background-color: #268bd2; /*solarized-cyan*/
+    background-color: @color3;
 }
 
 .dialog {
-    border: #002b36; /*base03*/
-    background-color: transparent; /*base03*/
+    border: @bg;
+    background-color: transparent;
 }
 
 .dialog button {
-    background-color: rgba(2, 27, 56, 0.326); /*base02*/
-    border-bottom-color: #268bd2; /*solarized-cyan*/
+    background-color: rgba(2, 27, 56, 0.3);
+    border-bottom-color: @color3;
     border-radius: .75em;
 }
 
 .dialog button:nth-child(1) {
-    border-bottom-color: #859900; /*solarized-green*/
+    border-bottom-color: @color4;
 }
 
 .dialog button:nth-child(2) {
-    border-bottom-color: #dc322f; /*solarazed-red*/
+    border-bottom-color: @error;
 }
-.horizontal_togglebuttons  {
-    border: none; /*base03*/
-    background-color: rgba(2, 27, 56, 0.326); /*base02*/
+
+.horizontal_togglebuttons {
+    border: none;
+    background-color: rgba(2, 27, 56, 0.3);
     border-radius: 0.75em;
-    box-shadow: inset 0px 0px 15px -4px rgba(0,0,0,0.24);
     margin-right: 5px;
+    box-shadow: inset 0px 0px 15px -4px rgba(0,0,0,0.24);
 }
 
 .horizontal_togglebuttons_active {
-    background-color: rgba(227, 115, 2, 0.65); /*solarized-orange*/
+    background-color: rgba(227, 115, 2, 0.65);
     box-shadow: inset 0px 0px 22px 5px rgba(0,0,0,0.32);
 }
 
-.fan_slider {
-    color: #fdf6e3; /*base3*/
-}
-
-.message_popup {
-    border-bottom-color: #fdf6e3; /*base3*/
-}
-
-.message_popup button {
-    background-color: #dc322f; /*solarazed-red*/
-}
-
-.message_popup_echo, .message_popup_echo button {
-    background-color: #859900; /*solarized-green*/
-}
-
-.message_popup_warning, .message_popup_warning button {
-    background-color: #cb4b16; /*solarazed-orange*/
-}
-
-.message_popup_error, .message_popup_error button {
-    background-color: #dc322f; /*solarazed-red*/
-}
-
-.numpad_tleft, .numpad_top, .numpad_tright, .numpad_left, .numpad_button, .numpad_right, .numpad_bleft, .numpad_bottom, .numpad_bright {
-    border-color: transparent; /*base03*/
-    background-color: rgba(2, 27, 56, 0.326); /*base02*/
-    box-shadow: inset 0px 0px 15px -4px rgba(0,0,0,0.24);
-}
-
-.printing-status {
-    color: #fdf6e3; /*base3*/
-}
-
-.printing-progress-text {
-    color: #fdf6e3; /*base3*/
-}
-
-.printing-status-label {
-    color: #93a1a1; /*base1*/
-}
-
-.message {
-    border-color: #dc322f; /*solarized-red*/
-    color: #fdf6e3; /*base3*/
-    background-color: #dc322f; /*solarized-red*/
+.numpad_tleft,
+.numpad_top,
+.numpad_tright,
+.numpad_left,
+.numpad_button,
+.numpad_right,
+.numpad_bleft,
+.numpad_bottom,
+.numpad_bright {
+    border-color: transparent;
+    background-color: rgba(2, 27, 56, 0.3);
+    margin-right: 0.25em;
+    margin-left: 0.25em;
+    margin-bottom: 0.5em;
 }
 
 .message button {
-    background-color: #fdf6e3; /*base3*/
-    color: #002b36; /*base03*/
+    color: @bg;
 }
 
 .warning {
-    background-color: #b58900; /*solarazed-yellow*/
-}
-
-.error {
-    background-color: #dc322f; /*solarized-red*/
+    background-color: @color1;
 }
 
 .keyboard_pad {
-    background-color: rgba(2, 27, 56, 0.526); /*base02*/
+    background-color: rgba(2, 27, 56, 0.5);
+    margin-right: 0.3em;
+    margin-bottom: 0.3em;
     box-shadow: inset 0px 0px 15px -4px rgba(0,0,0,0.24);
+}
+.graph_label {
+    background-color: rgba(2, 27, 56, 0.3);
+    border-left-width: 4px; 
+    border-left-style: solid;
+    border-radius: 6px;
 }
