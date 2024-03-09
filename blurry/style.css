@@ -1,291 +1,232 @@
-/* blurry-theme created by Sascha Bürger 2023 */
+/* blurry-theme created by Sascha Buerger 2023 */
+@define-color color1 #f9a825;
+@define-color color2 #d33682;
+@define-color color3 #2aa198;
+@define-color color4 #859900;
+@define-color bg #002b36;
+@define-color warning #f9a825;
+@define-color error #981E1F;
+@define-color text white;
 
 * {
-    color: #e2e2e2;
-}
+    background-color: transparent;
 
-window {
-    background-color: #121212;
-    background-image: url("./styles/blurry/background.svg");
-    background-size: cover;
 }
 
 list row {
     background-color: rgba(2, 27, 56, 0.926);
-    -gtk-icon-shadow: none;
     box-shadow: inset 0px 0px 32px -22px rgba(0,0,0,0.75);
-
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
 }
+
 treeview.view {
     background-color: transparent;
+
 }
 
-list row {
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
+window {
+    background-color: @bg;
+    background-image: url("./styles/blurry/background.png");
+    background-size: cover;
+
 }
+
 button {
     background-color: transparent;
+    border-radius: 0.5em;
 }
 
-button:active {
+button:active,
+.button_active,
+button.active {
     background-color: rgba(2, 27, 56, 0.575);
-}
-
-.button_active {
-    background-color: rgba(2, 27, 56, 0.575);
-    border-color: #490696;
-    border: 0;
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
+    border-radius: 0.5em;
+    border-style: none;
 }
 
 button.color1 {
-    background-color: rgba(2, 27, 56, 0.726);
-    border-color: #cb4b16;
+    background-color: rgba(2, 27, 56, 0.7);
+    border-bottom-color: @color1;
     border-radius: 1em;
     box-shadow: inset 0px 0px 32px -22px rgba(0,0,0,0.75);
 }
 
 button.color2 {
-    background-color: rgba(2, 27, 56, 0.726);
-    border-color: #d33682;
+    background-color: rgba(2, 27, 56, 0.7);
+    border-bottom-color: @color2;
     border-radius: 1em;
     box-shadow: inset 0px 0px 32px -22px rgba(0,0,0,0.75);
 }
 
 button.color3 {
-    background-color: rgba(2, 27, 56, 0.726);
-    border-color: #2aa198;
+    background-color: rgba(2, 27, 56, 0.7);
+    border-bottom-color: @color3;
     border-radius: 1em;
     box-shadow: inset 0px 0px 32px -22px rgba(0,0,0,0.75);
 }
 
 button.color4 {
-    background-color: rgba(2, 27, 56, 0.726);
-    border-color: #859900;
+    background-color: rgba(2, 27, 56, 0.7);
+    border-bottom-color: @color4;
     border-radius: 1em;
     box-shadow: inset 0px 0px 32px -22px rgba(0,0,0,0.75);
 }
 
-button.color1:active, button.color2:active, button.color3:active, button.color4:active, button.update:active, button.invalid:active, .dialog button:active {
-    border-style: none;
-    margin-top: .5em;
-}
-
-button.active {
-    background-color: rgba(233, 0, 97, 0.5);
-}
-
 button.update {
-    background-color: rgba(2, 27, 56, 0.726);
+    background-color: rgba(2, 27, 56, 0.7);
     border: 0;
-    border-bottom: 0.3em solid;
-    border-bottom-color: #849900;
+    border-bottom: .3em solid;
+    border-bottom-color: @color4;
     border-radius: .75em;
 }
 
 button.invalid {
-    background-color: rgba(2, 27, 56, 0.726);
+    background-color: rgba(2, 27, 56, 0.7);
     border: 0;
     border-bottom: .3em solid;
-    border-bottom-color: #dc322f;
+    border-bottom-color: @error;
     border-radius: .75em;
 }
 
+combobox button,
 combobox box button {
     background-color: rgba(2, 27, 56, 0.7);
-    border-color: rgba(0,0,0,0);
+    border-color: transparent;
     border: 0;
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
+    border-radius: 0.75em;
 }
 
+menu,
+popover,
+popover button,
+combobox arrow,
+menuitem,
+combobox menuitem {
+    background-color: transparent;
+    
+}
+
+combobox window.popup {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+treeview.view check,
 switch {
-    background-color: rgba(2, 27, 56, 0.726);
-    border-color: rgba(0,0,0,0);
+    background-color: rgba(2, 27, 56, 0.7);
 }
 
+treeview.view check:checked,
 switch:checked {
     background-color: rgba(212, 120, 0, 0.699);
 }
 
-switch slider {
-    border: 0;
-}
-
 entry {
-    background-color: rgba(2, 27, 56, 0.726);
-    border-color: rgba(0,0,0,0);
-    border: 0;
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
-}
-
-frame {
-    color: #fdf6e3;
-    border-bottom-color: rgba(2, 27, 56, 0.726);
-}
-
-label {
-    color: #fdf6e3;
+    background-color: rgba(2, 27, 56, 0.7);
+    border: none;
+    margin-bottom: 0.5em;
 }
 
 menu {
-    background-color: transparent;
-    border: 0;  
+    background-color: rgb(44, 40, 54); 
 }
 
 menuitem {
-    background-color: rgb(2, 27, 56);
-    border-color: rgb(2, 27, 56); /*base03*/
+    background-color: transparent;
+    border: none;
+    
 }
 
 trough {
-    background-color: rgba(2, 27, 56, 0.726);
-    color: #fdf6e3;
-    border: 0;
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
+    background-color: rgba(2, 27, 56, 0.7);
+    color: @text;
+    border: none;
+    border-radius: 1em;
     box-shadow: 0px 0px 42px -11px rgba(0,0,0,0.75);
 }
 
-trough highlight, trough progress {
-    background-color: rgba(212, 120, 0, 0.699);
-    color: #fdf6e3;
-    border: 0;
+trough highlight,
+trough progress {
+    background-color: rgba(227, 115, 2, 0.65);
+    border: none;
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
     box-shadow: inset 0px 0px 32px -22px rgba(0,0,0,0.75);
 }
-
-scale-mark {
-    color: #fdf6e3;
+trough progress.left {
+    border: 2px;
 }
 
 scrollbar, scrollbar button, scrollbar trough {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: transparent;
 }
 
 scrollbar slider {
-    background-color: rgba(219, 219, 219, 0.712);
-}
-
-textview .time {
-    color: rgba(15, 44, 68, 0.726);
-    border: 0;
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
+    background-color: rgba(217, 217, 217, 0.526);
 }
 
 .popup {
-    background-color: #268bd2;
+    background-color: @color3;
 }
 
 .dialog {
-    border: 0;
-    background-color: #002b36;
-    border-top-left-radius: .75em;
-    border-bottom-left-radius: .75em;
-    border-top-right-radius: .75em;
-    border-bottom-right-radius: .75em;
+    border: @bg;
+    background-color: transparent;
 }
 
 .dialog button {
-    background-color: rgba(2, 27, 56, 0.726);
-    border-bottom-color: #268bd2;
+    background-color: rgba(2, 27, 56, 0.7);
+    border-bottom-color: @color3;
     border-radius: .75em;
 }
 
-.dialog button:nth-child(1) {
-    border-bottom-color: #849900;
-}
-
-.dialog button:nth-child(2) {
-    border-bottom-color: #B71C1C;
-}
-
-.tempbutton_top, .tempbutton, .tempbutton_bottom, .distbutton_top, .distbutton, .distbutton_bottom  {
-    background-color: rgba(2, 27, 56, 0.726);
-    border: 0;
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
-    box-shadow: inset 0px 0px 32px -22px rgba(0,0,0,0.75);
+.horizontal_togglebuttons {
+    border: none;
+    background-color: rgba(2, 27, 56, 0.7);
+    border-radius: 0.75em;
     margin-right: 5px;
+    box-shadow: inset 0px 0px 32px -22px rgba(0,0,0,0.75);
 }
 
-.distbutton_active {
-    background-color: rgba(212, 120, 0, 0.699);
+.horizontal_togglebuttons_active {
+    background-color: rgba(227, 115, 2, 0.65);
 }
 
-.fan_slider {
-    color: #e2e2e2;
-}
-
-.message_popup {
-    border-bottom-color: #e2e2e2;
-}
-
-.message_popup_echo, .message_popup_echo button {
-    background-color: rgba(212, 120, 0, 0.699);
-}
-
-.message_popup_error, .message_popup_error button {
-    background-color: #B71C1C;
-}
-
-.numpad_tleft, .numpad_top, .numpad_tright, .numpad_left, .numpad_button, .numpad_right, .numpad_bleft, .numpad_bottom, .numpad_bright {
-    border-color: rgba(0,0,0,0);
-    background-color: rgba(2, 27, 56, 0.726);
-}
-
-.printing-status {
-    color: #e2e2e2;
-}
-
-.printing-progress-bar {
-    color: #006064;
-}
-
-.printing-progress-text {
-    color: #e2e2e2;
-}
-
-.printing-status-label {
-    color: #9E9E9E;
-}
-
-.message {
-    border-color: #B71C1C;
-    color: #e2e2e2;
-    background-color: #B71C1C;
+.numpad_tleft,
+.numpad_top,
+.numpad_tright,
+.numpad_left,
+.numpad_button,
+.numpad_right,
+.numpad_bleft,
+.numpad_bottom,
+.numpad_bright {
+    border-color: transparent;
+    background-color: rgba(2, 27, 56, 0.7);
+    margin-right: 0.25em;
+    margin-left: 0.25em;
+    margin-bottom: 0.5em;
 }
 
 .message button {
-    background-color: #e2e2e2;
-    color: #121212;
+    color: @bg;
 }
 
 .warning {
-    background-color: #EF6C00;
+    background-color: @color1;
 }
 
-.error {
-    background-color: #B71C1C;
+.keyboard_pad {
+    background-color: rgba(2, 27, 56, 0.5);
+    margin-right: 0.3em;
+    margin-bottom: 0.3em;
+}
+.graph_label {
+    background-color: rgba(2, 27, 56, 0.7);
+    border-left-width: 4px; 
+    border-left-style: solid;
+    border-radius: 6px;
 }
